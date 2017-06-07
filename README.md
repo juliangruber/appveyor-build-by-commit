@@ -1,12 +1,12 @@
 
-# appveyor-build-by-sha
+# appveyor-build-by-commit
 
 Fetch the appveyor build for given commit sha.
 
 ## Usage
 
 ```js
-const fetch = require('appveyor-build-by-sha')
+const fetch = require('appveyor-build-by-commit')
 
 fetch({
   repo: ['maxogden', 'rabin'],
