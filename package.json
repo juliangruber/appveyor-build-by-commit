@@ -1,0 +1,18 @@
+{
+  "name": "appveyor-build-by-commit",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "juliangruber/appveyor-build-by-commit",
+  "description": "Fetch the appveyor build for given commit sha",
+  "dependencies": {
+    "got": "^7.0.0",
+    "appveyor-ci": "^2.1.1"
+  },
+  "devDependencies": {
+    "prettier-standard-formatter": "^0.222222222222222.333333333333333",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "test": "prettier-standard-formatter *.js && standard"
+  }
+}
