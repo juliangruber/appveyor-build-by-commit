@@ -5,8 +5,7 @@
   "repository": "juliangruber/appveyor-build-by-commit",
   "description": "Fetch the appveyor build for given commit sha",
   "dependencies": {
-    "got": "^7.0.0",
-    "appveyor-ci": "^2.1.1"
+    "got": "^7.0.0"
   },
   "devDependencies": {
     "prettier-standard-formatter": "^0.222222222222222.333333333333333",
